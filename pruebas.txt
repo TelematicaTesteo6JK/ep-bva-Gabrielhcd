@@ -1,0 +1,11 @@
+Test Data_|_Expected Result_|_Actual Result_|_Pass/Fail
+Equivalence Partitioning_________________________________________________
+ 0        |    __False__    |    __False__  | __Pass__ 
+ 5        |     __True__    |    __True__   | __Pass__ 
+ 9        |    __False__    |    __False__  | __Pass__ 
+-------------------------------------------------------------------------
+Boundary Value Analysis__________________________________________________
+ 0        |    __False__    |    __False__  | __Pass__ 
+ 1        |     __True__    |    __True__   | __Pass__ 
+ 8        |     __True__    |   __True__    | __Fail__ 
+ 9        |    __False__    |    __False__  | __Pass__ 
